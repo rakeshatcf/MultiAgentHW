@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesPipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesPipelineConfig/email_engagement_agents.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesPipelineConfig/email_engagement_tasks.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesPipelineConfig/lead_qualification_agents.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesPipelineConfig/lead_qualification_tasks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="Adding mnore scripts">
+      <change beforePath="$PROJECT_DIR$/SalesPipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/SalesPipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,12 +95,25 @@
       <workItem from="1729704275218" duration="24000" />
       <workItem from="1731347895582" duration="4473000" />
       <workItem from="1731509881095" duration="11594000" />
-      <workItem from="1732049073259" duration="16622000" />
+      <workItem from="1732049073259" duration="16928000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding mnore scripts">
+      <option name="closed" value="true" />
+      <created>1733264454638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733264454638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding mnore scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding mnore scripts" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MultiAgentHW$main.coverage" NAME="main Coverage Results" MODIFIED="1732031022622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
