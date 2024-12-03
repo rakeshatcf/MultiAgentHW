@@ -1,6 +1,6 @@
 # Warning control
 import os
-import asyncio
+import asyncio # TODO research why async is not working for methods
 import yaml
 import warnings
 warnings.filterwarnings('ignore')
