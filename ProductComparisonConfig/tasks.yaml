@@ -1,0 +1,62 @@
+extract_product_data:
+  description: >
+    Analyze features supported by product platform {ProductA} and {ProductB}.
+    Identify and summarize the data provided by both product vendors to be used
+    by payment professionals who are potential customers.
+    Utilize financial news APIs and real-time market data tools to
+    gather up-to-date information. Focus on data directly provided by both vendors
+    to extract platform features in a consistent way.
+  expected_output: >
+    A structured summary report for both {ProductA} and {ProductB}. This report should include
+    both key and advanced features and their potential applications and use cases for the 
+    target customer base.
+
+analyze_market_data:
+  description: >
+    Analyze market data for both {ProductA} and {ProductB}, with a focus
+    on uncovering concerns, reviews, and actual use cases that could be
+    leveraged in content creation. 
+
+  expected_output: >
+    A comprehensive analysis report that highlights key market trends
+    and actionable insights related to {ProductA} and {ProductB}. The report should
+    include {ProductA} does this. 
+    Here's who it works well for.
+    Here's how the reviews have been
+    Here are common drawbacks.
+    Repeat this for {ProductB}. 
+    Finally include a summary statement of why you might go to one versus the other.
+
+create_content:
+  description: >
+    Based on the insights provided by the Market News Monitor and
+    Data Analyst agents, create high-quality, engaging content that
+    educates and informs the target customer business's payment needs
+    based on research done on both {ProductA} and {ProductB}.
+    Produce 3 different versions of content that effectively communicate the research
+    done. Ensure the content clearly conveys the key findings
+    and recommendations related to {ProductA} and {ProductB}. Incorporate data
+    visualizations, infographics, or other multimedia elements to
+    enhance the content where applicable.
+  expected_output: >
+    A collection of high-quality content pieces related to analysis and comparison of both 
+    {ProductA} and {ProductB} products.
+    
+
+quality_assurance:
+  description: >
+    Review and refine the content created on {ProductA} and {ProductB} to ensure it
+    meets the highest standards of accuracy, clarity, and the format provided
+    . Thoroughly proofread and edit the content, checking
+    for errors, inconsistencies, and alignment with the specified format.
+    Ensure that the content accurately reflects the key insights and
+    recommendations provided by the agents. Ensure that the final content is well-formatted
+    in markdown, using appropriate headers, bullet points, links,
+    and other markdown features to enhance readability and engagement.
+  expected_output: >
+    A finalized set of content pieces related to {ProductA} and {ProductB}, thoroughly
+    reviewed, and formatted in markdown. The content should be
+    well-structured, with appropriate use of headers, bullet points,
+    links, and other markdown features to ensure it is both visually
+    appealing and easy to read.  Each section should have at least 2
+    paragraphs.
