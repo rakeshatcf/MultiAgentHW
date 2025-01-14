@@ -1,7 +1,8 @@
-2025-01-14 11:11:17,602 - WARNING - Could not end session - no sessions detected
-2025-01-14 11:11:31,796 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
-2025-01-14 11:12:16,484 - WARNING - Could not end session - no sessions detected
-2025-01-14 11:12:33,717 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
-2025-01-14 11:12:55,561 - WARNING - Could not end session - no sessions detected
-2025-01-14 11:13:13,624 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
-2025-01-14 11:14:13,689 - WARNING - Could not end session - no sessions detected
+2025-01-14 16:15:25,728 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:15:58,535 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:16:48,651 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:17:25,583 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:17:48,876 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:18:00,277 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()
+2025-01-14 16:18:35,026 - WARNING - Could not end session - no sessions detected
+2025-01-14 16:18:35,713 - WARNING - Could not record event - no sessions detected. Create a session by calling agentops.start_session()

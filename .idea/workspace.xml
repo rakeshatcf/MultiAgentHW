@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="Adding mnore scripts">
+    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="Updated code to make createcomicbook script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComicBookConfig/VisualTasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ComicBookConfig/VisualTasks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateComicBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateComicBook.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductComparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductComparisonConfig/agents.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparisonConfig/agents.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductComparisonConfig/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparisonConfig/tasks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPlanAndAllocation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPlanAndAllocation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialMediaContentCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMediaContentCreation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/2f8b7b23-63dd-4d75-85ca-1183e91662d0/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/db/2f8b7b23-63dd-4d75-85ca-1183e91662d0/length.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db/chroma.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview_materials.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview_materials.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailored_resume.md" beforeDir="false" afterPath="$PROJECT_DIR$/tailored_resume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agentops.log" beforeDir="false" afterPath="$PROJECT_DIR$/agentops.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crewai_flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/crewai_flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -44,6 +43,9 @@
     &quot;accountId&quot;: &quot;50c52c0b-318c-4f5b-bbba-b42a4b27401c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venvnew/lib/python3.12/site-packages/crewai/project/crew_base.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -67,6 +69,7 @@
     "Python.ProjectPlanAndAllocation.executor": "Run",
     "Python.SalesPipeline.executor": "Run",
     "Python.SocialMediaContentCreation.executor": "Run",
+    "Python.SupportDataInsightAnalysis.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -118,7 +121,7 @@
       <workItem from="1734427997842" duration="6773000" />
       <workItem from="1734435163318" duration="973000" />
       <workItem from="1734450344332" duration="16078000" />
-      <workItem from="1736780973405" duration="15777000" />
+      <workItem from="1736780973405" duration="28186000" />
     </task>
     <task id="LOCAL-00001" summary="Adding mnore scripts">
       <option name="closed" value="true" />
@@ -152,7 +155,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734450453617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated code to make createcomicbook script">
+      <option name="closed" value="true" />
+      <created>1736874998303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736874998303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated code to make createcomicbook script">
+      <option name="closed" value="true" />
+      <created>1736875497890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736875497890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated code to make createcomicbook script">
+      <option name="closed" value="true" />
+      <created>1736875636593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736875636593</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,26 +187,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding mnore scripts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding mnore scripts" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/CreateComicBook.py</url>
-          <line>143</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="Updated code to make createcomicbook script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code to make createcomicbook script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MultiAgentHW$SocialMediaContentCreation.coverage" NAME="SocialMediaContentCreation Coverage Results" MODIFIED="1734428943943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$JobApplication.coverage" NAME="JobApplication Coverage Results" MODIFIED="1736448891669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MultiAgentHW$ProductComparison.coverage" NAME="ProductComparison Coverage Results" MODIFIED="1736525495270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MultiAgentHW$CreateComicBook.coverage" NAME="CreateComicBook Coverage Results" MODIFIED="1736874665992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentHW$ProductComparison.coverage" NAME="ProductComparison Coverage Results" MODIFIED="1736887743044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentHW$CreateComicBook.coverage" NAME="CreateComicBook Coverage Results" MODIFIED="1736885313188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$ProjectPlanAndAllocation.coverage" NAME="ProjectPlanAndAllocation Coverage Results" MODIFIED="1732217058413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentHW$SupportDataInsightAnalysis.coverage" NAME="SupportDataInsightAnalysis Coverage Results" MODIFIED="1736894835368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$main.coverage" NAME="main Coverage Results" MODIFIED="1732031022622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MultiAgentHW$SalesPipeline.coverage" NAME="SalesPipeline Coverage Results" MODIFIED="1736456398706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentHW$SalesPipeline.coverage" NAME="SalesPipeline Coverage Results" MODIFIED="1736889495068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

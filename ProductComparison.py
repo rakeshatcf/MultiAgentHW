@@ -25,10 +25,13 @@ class ContentOutput(BaseModel):
 
     # Define file paths for YAML configurations
 files = {
-    'agents': 'ProductComparisonConfig/StoryAgents.yaml',
-    'tasks': 'ProductComparisonConfig/StoryTasks.yaml'
+    'agents': 'ProductComparisonConfig/agents.yaml',
+    'tasks': 'ProductComparisonConfig/tasks.yaml'
 }
-
+dalle_tool = DallETool(model="dall-e-3",
+                       size="1024x1024",
+                       quality="standard",
+                       n=1)
 # Load configurations from YAML files
 configs = {}
 for config_type, file_path in files.items():
@@ -40,7 +43,7 @@ agents_config = configs['agents']
 tasks_config = configs['tasks']
 
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool, WebsiteSearchTool
-os.environ['OPENAI_MODEL_NAME'] = 'gpt-4o-mini'
+os.environ['OPENAI_MODEL_NAME'] = 'gpt-4o'
 #groq_llm = "groq/llama3-groq-70b-8192-tool-use-preview"
 
 # Creating Agents
@@ -52,13 +55,15 @@ market_news_monitor_agent = Agent(
 
 data_analyst_agent = Agent(
     config=agents_config['data_analyst_agent'],
-    tools=[SerperDevTool(), WebsiteSearchTool(),DallETool()],
+    tools=[SerperDevTool(), WebsiteSearchTool(),dalle_tool],
+    verbose=True
     #llm=llm,
 )
 
 content_creator_agent = Agent(
     config=agents_config['content_creator_agent'],
-    tools=[SerperDevTool(), WebsiteSearchTool(), DallETool()],
+    tools=[SerperDevTool(), WebsiteSearchTool(), dalle_tool],
+    verbose=True
 )
 
 quality_assurance_agent = Agent(

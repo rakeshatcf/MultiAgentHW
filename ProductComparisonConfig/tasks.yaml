@@ -26,6 +26,7 @@ analyze_market_data:
     Here are common drawbacks.
     Repeat this for {ProductB}. 
     Finally include a summary statement of why you might go to one versus the other.
+    
 
 create_content:
   description: >
@@ -35,9 +36,9 @@ create_content:
     based on research done on both {ProductA} and {ProductB}.
     Produce 3 different versions of content that effectively communicate the research
     done. Ensure the content clearly conveys the key findings
-    and recommendations related to {ProductA} and {ProductB}. Incorporate data
-    visualizations, infographics, or other multimedia elements to
-    enhance the content where applicable.
+    and recommendations related to {ProductA} and {ProductB}. 
+    Generate a prompt with name image_description which can be used by a text to image model to generate an image for the comparison of market share using pie chart.
+    A detailed pie chart with n individual slices, each representing a specific percentage. The pie chart slices are dynamic in size, signifying an array of different percentage distributions. The first slice represents x%, the second slice represents y%, etc. The chart's numbers labels are clear and easy to read, to help illustrate the distribution of percentages effectively. Send the prompt to the tool provided.
   expected_output: >
     A collection of high-quality content pieces related to analysis and comparison of both 
     {ProductA} and {ProductB} products. There should be at least one pie chart or table comparing financial numbers.

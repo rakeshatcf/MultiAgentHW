@@ -9,7 +9,8 @@ illustration:
     Below is a description of a specific scence from a story whose short summary is also given below. 
 
     Generate a prompt with name image_description which can be used by a text to image model to generate an image for the scene. Send the prompt to the 
-    tool provided to generated the image that depicts characters and backgrounds appropriately as per the requirements of the scenes. 
+    tool provided to generate the image that depicts characters and backgrounds appropriately as per the requirements of the scenes. 
+    For images display the sign with text that is in image_description prompt.
     And the characters should be in cartoon style. The prompts should be in less than 40 words. The tool can only take a string. Do not use keys description and type, just send the string in image_description.
 
     <story_summary>
