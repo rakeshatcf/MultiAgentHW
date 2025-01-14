@@ -1,0 +1,24 @@
+# Task
+
+illustration:
+  description: >
+    
+    You are given a short story for kids on learning important lessons on life. The story will to be converted to 
+    a picture book for fun reading and engagement for the kids. The story is already broken down into distinct scenes.
+
+    Below is a description of a specific scence from a story whose short summary is also given below. 
+
+    Generate a prompt with name image_description which can be used by a text to image model to generate an image for the scene. Send the prompt to the 
+    tool provided to generated the image that depicts characters and backgrounds appropriately as per the requirements of the scenes. 
+    And the characters should be in cartoon style. The prompts should be in less than 40 words. The tool can only take a string. Do not use keys description and type, just send the string in image_description.
+
+    <story_summary>
+      {story_summary}
+    <story_summary>
+
+    <scene_description>
+      {scene_description}
+    </scene_description>
+  expected_output: >
+    The output must follow the pydantic schema strictly. There will be penalty if not followed.
+  agent: visualartist

@@ -1,0 +1,4 @@
+{
+  "prompt": "A cartoon scene showing a fierce lion named Bhasuraka peering into a well, staring at his own reflection, while jungle animals celebrate joyfully in the background. Bright colors and a fun, lively atmosphere.",
+  "image_url": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-qMCT2SGhx6hV08gbhOFOk7DX/rag-spike/img-AvDeWi5NWTP6IO3qCRDqwRXk.png?st=2025-01-14T16%3A13%3A13Z&se=2025-01-14T18%3A13%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-14T11%3A00%3A58Z&ske=2025-01-15T11%3A00%3A58Z&sks=b&skv=2024-08-04&sig=HHDw6l43i3GQbhziB95SAxhXsoJMbxZb%2BW0tqrh94g4%3D"
+}

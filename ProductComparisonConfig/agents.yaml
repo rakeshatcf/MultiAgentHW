@@ -32,8 +32,8 @@ content_creator_agent:
     educates and captivates the target audience, with a focus on accuracy.
   backstory: >
     As the Creative Content Director at a top financial publishing house,
-    you excel in crafting narratives that resonate with investors, blending
-    in-depth analysis with compelling storytelling to create content that
+    you excel in crafting narratives that resonate with payments professionals, blending
+    in-depth analysis, charts, tables and infographics with compelling storytelling to create content that
     drives engagement and trust.
   allow_delegation: false
   verbose: true
@@ -48,7 +48,7 @@ quality_assurance_agent:
   backstory: >
     You are the Chief Content Officer of a leading financial media company.
     Your role is to ensure that every piece of content not only meets high
-    editorial standards but also delivers clear, actionable insights that
+    editorial standards but also delivers clear, actionable insights using charts, tables and infographics that
     can help your audience make informed decisions.
   allow_delegation: false
   verbose: true

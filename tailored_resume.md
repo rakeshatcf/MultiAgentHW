@@ -1,67 +1,63 @@
 # Noah Williams
 - Email: noah.williams@example.dev
-- Location: São Paulo, SP, Brazil
 - Phone: +44 11 111 11111
 
 ## Profile
-Noah Williams is a distinguished Software Engineering Leader with 18 years of experience specializing in full stack development and technology strategy. He has a proven track record of managing remote and in-office teams, and his expertise encompasses front-end and back-end development across multiple programming languages and frameworks. Noah's strong background in AI and data science, combined with his leadership skills, makes him a prime candidate for positions that require innovative problem-solving and strategic thinking in early-stage environments.
+Accomplished Software Engineering Leader with 18 years of experience in the technology industry, specializing in full stack development and AI-driven solutions. Adept at managing both remote and in-office engineering teams, I possess a strong background in programming languages including Python, Elixir, Ruby, JavaScript, and TypeScript, along with extensive knowledge of front-end frameworks such as React and Angular. Committed to driving innovation in product development and ensuring high-quality software solutions that enhance user experience and engagement.
 
-## Summary
-Accomplished Full Stack Developer with extensive experience in building and optimizing applications across diverse platforms. Demonstrated proficiency in front-end technologies (HTML, CSS, JavaScript frameworks such as React and Angular) and back-end technologies (Node.js, Python, and Java). Proven ability to develop APIs, manage databases, and create responsive and secure applications. A self-starter with excellent communication skills, adept at collaborating with cross-functional teams to drive technology initiatives and enhance user experience.
+## Work History
 
-## Skills
-- **Front-end Technologies:** HTML, CSS, JavaScript, jQuery, React, Angular
-- **Back-end Technologies:** Node.js, Python, Java
-- **Databases:** MySQL, MongoDB
-- **API Development:** Proficient in designing and implementing RESTful and GraphQL APIs
-- **UI/UX Design:** Strong understanding of design principles and user experience best practices
-- **Soft Skills:** Effective communication, collaboration, problem-solving, adaptability, project management
+### DataKernel: Director of Software Engineering (remote) — 2022 - Present
+- Transformed engineering operations into a key revenue driver, expanding the customer base through innovative software solutions.
+- Spearheaded the integration of scalable AI technologies and vector databases, enhancing product functionality and market competitiveness.
+- Established a culture of continuous improvement and skill development, aligning team goals with strategic project outcomes.
 
-## Work Experience
+### DataKernel: Senior Software Engineering Manager (remote) — 2019 - 2022
+- Directed engineering strategy and collaboration with C-level executives to shape technological initiatives and drive company growth.
+- Managed diverse, high-performing teams across international locations, fostering transparency and respect to enhance productivity and morale.
+- Developed and executed recruitment and mentorship programs that attracted and retained top engineering talent.
 
-### DataKernel: Director of Software Engineering (Remote) — 2022 - Present
-- Led transformation of the engineering division, driving revenue growth through innovative AI technology integration and strategic project management.
-- Developed and managed applications and databases to enhance product performance and market positioning.
-- Collaborated with product managers to design and implement user-centered features that improved usability and efficiency.
+### InnovPet: Founder & CEO (remote) — 2019 - 2022
+- Founded a startup focusing on IoT solutions for pet care, including the development of a GPS tracking collar.
+- Oversaw the product development cycle from concept to launch, collaborating with engineers and marketing teams for market execution.
+- Navigated the startup through a successful funding phase, showcasing leadership and strategic planning abilities.
 
-### DataKernel: Senior Software Engineering Manager (Remote) — 2019 - 2022
-- Directed engineering strategy, overseeing multiple project initiatives and managing cross-functional teams across different time zones.
-- Successfully implemented Agile methodology to enhance team performance and project delivery timelines.
-- Championed a culture of continuous improvement, resulting in elevated team morale and productivity.
+### EliteDevs: Engineering Manager (remote) — 2018 - 2019
+- Implemented strategic plans for team coordination and project success, enhancing collaboration across departments.
+- Managed multiple engineering teams while using Ruby on Rails and React to build new products and improve existing functionalities.
 
-### InnovPet: Founder & CEO (Remote) — 2019 - 2022
-- Created and launched an IoT-based pet care solution, steering product development from inception to market launch.
-- Conducted thorough market analysis and user research to ensure product features aligned with customer needs and expectations.
-- Established partnerships and operational frameworks that facilitated successful fundraising and market entry.
+### PrintPack: Engineering Manager (remote) — 2016 - 2018
+- Led a high-performance engineering team, achieving a revenue increase of 500% over two years through innovative software solutions.
+- Integrated data analytics into business processes, developing tools that revolutionized customer behavior analysis.
 
-### DriveAI: Senior Software Engineer (Remote) — 2015 - 2016
-- Developed and optimized core APIs that significantly improved system functionality and user experience.
-- Implemented performance enhancements through advanced caching techniques, leading to reduced loading times and increased user satisfaction.
+### DriveAI: Senior Software Engineer (remote) — 2015 - 2016
+- Developed a central API that significantly improved functionality for engineers and enhanced user satisfaction through advanced caching strategies.
 
 ### BetCraft: CTO — 2013 - 2015
-- Spearheaded technology strategy during a critical growth phase, ensuring successful Series A funding.
-- Oversaw application development using modern frameworks, resulting in enhanced responsiveness and scalability of the platform.
+- Guided technology strategy post-Series A funding, improving platform performance and expanding market reach through key partnerships.
+- Built foundational products utilizing React and Angular, enhancing the overall user interface and experience.
 
-### EliteDevs: Engineering Manager (Remote) — 2018 - 2019
-- Managed the engineering team, driving the development of consumer applications that effectively leveraged data handling and processing.
-- Promoted best practices in code quality and application architecture, leading to improved product reliability.
+## Skills
+- **Programming Languages**: Python, Elixir, Ruby, JavaScript, TypeScript
+- **Frameworks & Tools**: React, Angular, Node.js, Ruby on Rails, MongoDB, MySQL
+- **APIs & Databases**: Designing and implementing effective APIs; managing and optimizing databases
+- **UI/UX Design**: Strong understanding of user interface and experience principles to create appealing, functional designs
+- **Soft Skills**: Excellent communication skills; strategic thinker; strong project management and organizational abilities; self-starter with a results-driven approach
 
 ## Education
 
 ### MBA in Information Technology
 London Business School - MBA
 
+### Advanced Leadership Techniques
+University of London - Certification
+
+### Data Science Specialization
+Coursera (Johns Hopkins University) - Certification
+
 ### B.Sc. in Computer Science
 University of Edinburgh - Bachelor’s degree
 
-### Certifications
-- Advanced Leadership Techniques - University of London
-- Data Science Specialization - Coursera (Johns Hopkins University)
+---
 
-## Interests
-- Exploring emerging technologies in AI and machine learning
-- Mentorship and community engagement within tech education
-- Participating in open-source projects to foster collaborative learning 
-
-## Communication Style
-Noah is recognized for his inclusive communication style, fostering an environment where team members can freely share ideas and feedback. His ability to clarify complex technical concepts for non-technical stakeholders aids in bridging gaps between engineering and business teams, promoting alignment and collaboration across the board.
+Noah Williams is a highly qualified candidate for the Full Stack Engineer position, demonstrating a strong alignment with the requirements for software development, project management, and effective team collaboration in a dynamic, technology-driven environment. His expertise in front-end and back-end development, combined with leadership capabilities and a passion for innovation, positions him as an ideal fit for modern engineering roles.

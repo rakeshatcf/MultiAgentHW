@@ -24,8 +24,8 @@ class ContentOutput(BaseModel):
 
     # Define file paths for YAML configurations
 files = {
-    'agents': 'SocialContentConfig/agents.yaml',
-    'tasks': 'SocialContentConfig/tasks.yaml'
+    'agents': 'SocialContentConfig/StoryAgents.yaml',
+    'tasks': 'SocialContentConfig/StoryTasks.yaml'
 }
 
 # Load configurations from YAML files

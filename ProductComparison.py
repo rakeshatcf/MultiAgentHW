@@ -6,6 +6,7 @@ warnings.filterwarnings('ignore')
 
 from dotenv import load_dotenv, find_dotenv
 from crewai import Agent, Task, Crew, LLM
+from crewai_tools import DallETool
 load_dotenv()
 os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o-mini'
 
@@ -24,8 +25,8 @@ class ContentOutput(BaseModel):
 
     # Define file paths for YAML configurations
 files = {
-    'agents': 'ProductComparisonConfig/agents.yaml',
-    'tasks': 'ProductComparisonConfig/tasks.yaml'
+    'agents': 'ProductComparisonConfig/StoryAgents.yaml',
+    'tasks': 'ProductComparisonConfig/StoryTasks.yaml'
 }
 
 # Load configurations from YAML files
@@ -51,13 +52,13 @@ market_news_monitor_agent = Agent(
 
 data_analyst_agent = Agent(
     config=agents_config['data_analyst_agent'],
-    tools=[SerperDevTool(), WebsiteSearchTool()],
+    tools=[SerperDevTool(), WebsiteSearchTool(),DallETool()],
     #llm=llm,
 )
 
 content_creator_agent = Agent(
     config=agents_config['content_creator_agent'],
-    tools=[SerperDevTool(), WebsiteSearchTool()],
+    tools=[SerperDevTool(), WebsiteSearchTool(), DallETool()],
 )
 
 quality_assurance_agent = Agent(

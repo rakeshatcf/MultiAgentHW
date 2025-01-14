@@ -40,7 +40,7 @@ create_content:
     enhance the content where applicable.
   expected_output: >
     A collection of high-quality content pieces related to analysis and comparison of both 
-    {ProductA} and {ProductB} products.
+    {ProductA} and {ProductB} products. There should be at least one pie chart or table comparing financial numbers.
     
 
 quality_assurance:
@@ -59,4 +59,4 @@ quality_assurance:
     well-structured, with appropriate use of headers, bullet points,
     links, and other markdown features to ensure it is both visually
     appealing and easy to read.  Each section should have at least 2
-    paragraphs.
+    paragraphs. Make sure that there is at least one table or pie chart of financial data comparison.
