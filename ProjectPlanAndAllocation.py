@@ -11,8 +11,8 @@ os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o-mini'
 
 # Define file paths for YAML configurations
 files = {
-    'agents': 'config/agents.yaml',
-    'tasks': 'config/tasks.yaml'
+    'agents': 'config/StoryAgents.yaml',
+    'tasks': 'config/StoryTasks.yaml'
 }
 
 # Load configurations from YAML files
