@@ -113,7 +113,7 @@
       <workItem from="1734427997842" duration="6773000" />
       <workItem from="1734435163318" duration="973000" />
       <workItem from="1734450344332" duration="16078000" />
-      <workItem from="1736780973405" duration="50228000" />
+      <workItem from="1736780973405" duration="50965000" />
     </task>
     <task id="LOCAL-00001" summary="Adding mnore scripts">
       <option name="closed" value="true" />
@@ -187,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736980378562</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated code to create charts">
+      <option name="closed" value="true" />
+      <created>1736982243054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736982243054</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

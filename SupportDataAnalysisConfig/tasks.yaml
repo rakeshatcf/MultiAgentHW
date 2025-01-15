@@ -45,9 +45,9 @@ chart_generation:
       satisfaction ratings over time.
     - Agent Performance: A pie chart showing the performance of different agents
       based on resolution times and customer satisfaction scores.    
-    Save the charts as image files in the current directory.
+    Save the charts as html files in the current directory.
     
-    Ensure that the charts are saved as image files so they can be easily embedded into the final report.
+    Ensure that the charts are saved as html files so they can be easily embedded into the final report.
   expected_output: >
     A set of charts that visually represent the key metrics and trends observed
     in the support data, ready to be integrated into the final report.
