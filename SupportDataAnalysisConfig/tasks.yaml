@@ -47,7 +47,7 @@ chart_generation:
       based on resolution times and customer satisfaction scores.    
     Save the charts as image files in the current directory.
     
-    Ensure that the charts are saved as image files so they can be easily embedded into the final pdf or html report.
+    Ensure that the charts are saved as image files so they can be easily embedded into the final report.
   expected_output: >
     A set of charts that visually represent the key metrics and trends observed
     in the support data, ready to be integrated into the final report.
@@ -71,7 +71,8 @@ final_report_assembly:
 
     The report should be formatted for easy consumption by stakeholders,
     providing valuable insights into the performance of the support system and
-    areas for improvement. Make sure that the charts are embedded directly, instead of being linked, into the HTML report close to the information presented.
+    areas for improvement. Make sure that the charts are rendered close to the information presented. 
+    Make sure that the images in the html files are imported directly, instead of being linked, into the final html document.
     
 
   expected_output: >
