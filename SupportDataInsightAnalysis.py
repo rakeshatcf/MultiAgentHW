@@ -25,9 +25,9 @@ for config_type, file_path in files.items():
 agents_config = configs['agents']
 tasks_config = configs['tasks']
 
-from crewai_tools import FileReadTool
+from crewai_tools import FileReadTool, FileWriterTool
 csv_tool = FileReadTool(file_path='./support_tickets_data.csv')
-
+#pdf_tool = FileWriterTool('final_report.pdf', )
 # Creating Agents
 suggestion_generation_agent = Agent(
   config=agents_config['suggestion_generation_agent'],
@@ -42,7 +42,7 @@ reporting_agent = Agent(
 chart_generation_agent = Agent(
   config=agents_config['chart_generation_agent'],
   allow_code_execution=True,
-  max_retry_limit=5
+  max_retry_limit=10
 )
 
 # Creating Tasks
@@ -86,18 +86,25 @@ support_report_crew = Crew(
 
 support_report_crew.test(n_iterations=1, openai_model_name='gpt-4o')
 
-support_report_crew.train(n_iterations=1, filename='training.pkl')
+#support_report_crew.train(n_iterations=1, filename='training.pkl')
 
-support_report_crew.test(n_iterations=1, openai_model_name='gpt-4o')
+#support_report_crew.test(n_iterations=1, openai_model_name='gpt-4o')
 
 # Display the Trello screenshot
 from IPython.display import Image, display
 
 # Load and display the image
-test_image = Image(filename='test_before_training.png', width=368)
-display(test_image)
+#test_image = Image(filename='test_before_training.png', width=368)
+#display(test_image)
 
 result = support_report_crew.kickoff()
 
-from IPython.display import display, Markdown
-display(Markdown(result.raw))
+#from IPython.display import display, Markdown
+#display(Markdown(result.raw))
+
+from rich.console import Console
+from rich.markdown import Markdown
+
+console = Console()
+markdown = Markdown(result.raw)
+console.print(markdown)

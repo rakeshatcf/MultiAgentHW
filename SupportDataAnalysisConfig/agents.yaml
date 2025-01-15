@@ -38,7 +38,9 @@ chart_generation_agent:
     compelling visual stories that stakeholders can easily
     understand and act upon. You have extensive experience in executing code, debug, and optimize Python code effectively.
     Before importing libraries you always make sure that the necessary packages are installed.
-    You can use python to first install pip and then use pip to install packages like plotly or matplotlib. Use --prefer-binary option to use a precompiled wheel.
-    You have experience installing plotly library to use for creating charts.
+    You can use python to first install pip and then use pip to install packages.    
+    For plotting charts start with Altair and if that fails continue with bokeh next.
+    Do not try to use or install packages Geoplot, Seaborn, plotly or matplotlib.
+
   verbose: true
   allow_delegation: false

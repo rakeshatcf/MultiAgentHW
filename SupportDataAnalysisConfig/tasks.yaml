@@ -43,14 +43,11 @@ chart_generation:
       past months.
     - Customer Satisfaction: A bar chart or trend line showing customer
       satisfaction ratings over time.
-    - Agent Performance: A chart showing the performance of different agents
-      based on resolution times and customer satisfaction scores.
-
+    - Agent Performance: A pie chart showing the performance of different agents
+      based on resolution times and customer satisfaction scores.    
     Save the charts as image files in the current directory.
-
-    Ensure that the charts are saved as image files, and generate URLs for these
-    images so they can be easily embedded into the final report.
-
+    
+    Ensure that the charts are saved as image files so they can be easily embedded into the final pdf or html report.
   expected_output: >
     A set of charts that visually represent the key metrics and trends observed
     in the support data, ready to be integrated into the final report.
@@ -74,9 +71,13 @@ final_report_assembly:
 
     The report should be formatted for easy consumption by stakeholders,
     providing valuable insights into the performance of the support system and
-    areas for improvement.
+    areas for improvement. Make sure that the charts are embedded directly, instead of being linked, into the HTML report close to the information presented.
+    
+
   expected_output: >
     A comprehensive final report that integrates tables, charts, and actionable
-    insights into a single document, formatted for stakeholders.
-    Don't add '```' or '```markdown' to the report.
+    insights into a single document, formatted for stakeholders. 
+    Return ONLY the contents of the HTML document, without any triple 
+    quotes like '```', '```html' or any other text.
+    Don't add '```' or '```markdown' to the report. This output should be saved as a HTML file.
 

@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="Updated code to make createcomicbook script">
+    <list default="true" id="2df32b93-ea40-4ee5-af2f-6caf6769da51" name="Changes" comment="Updated code to make SupportDataInsightAnalysis script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComicBookConfig/VisualTasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ComicBookConfig/VisualTasks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateComicBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateComicBook.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductComparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductComparisonConfig/agents.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparisonConfig/agents.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductComparisonConfig/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductComparisonConfig/tasks.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agentops.log" beforeDir="false" afterPath="$PROJECT_DIR$/agentops.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crewai_flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/crewai_flow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SupportDataAnalysisConfig/agents.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SupportDataAnalysisConfig/agents.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SupportDataAnalysisConfig/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SupportDataAnalysisConfig/tasks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SupportDataInsightAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/SupportDataInsightAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training_data.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/training_data.pkl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +116,7 @@
       <workItem from="1734427997842" duration="6773000" />
       <workItem from="1734435163318" duration="973000" />
       <workItem from="1734450344332" duration="16078000" />
-      <workItem from="1736780973405" duration="28186000" />
+      <workItem from="1736780973405" duration="48334000" />
     </task>
     <task id="LOCAL-00001" summary="Adding mnore scripts">
       <option name="closed" value="true" />
@@ -179,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736875636593</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Updated code to make SupportDataInsightAnalysis script">
+      <option name="closed" value="true" />
+      <created>1736895258218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736895258218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +192,8 @@
     <MESSAGE value="Adding mnore scripts" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Updated code to make createcomicbook script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code to make createcomicbook script" />
+    <MESSAGE value="Updated code to make SupportDataInsightAnalysis script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code to make SupportDataInsightAnalysis script" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MultiAgentHW$SocialMediaContentCreation.coverage" NAME="SocialMediaContentCreation Coverage Results" MODIFIED="1734428943943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -197,7 +201,7 @@
     <SUITE FILE_PATH="coverage/MultiAgentHW$ProductComparison.coverage" NAME="ProductComparison Coverage Results" MODIFIED="1736887743044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$CreateComicBook.coverage" NAME="CreateComicBook Coverage Results" MODIFIED="1736885313188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$ProjectPlanAndAllocation.coverage" NAME="ProjectPlanAndAllocation Coverage Results" MODIFIED="1732217058413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MultiAgentHW$SupportDataInsightAnalysis.coverage" NAME="SupportDataInsightAnalysis Coverage Results" MODIFIED="1736894835368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentHW$SupportDataInsightAnalysis.coverage" NAME="SupportDataInsightAnalysis Coverage Results" MODIFIED="1736979112888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$main.coverage" NAME="main Coverage Results" MODIFIED="1732031022622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentHW$SalesPipeline.coverage" NAME="SalesPipeline Coverage Results" MODIFIED="1736889495068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
