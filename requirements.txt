@@ -34,3 +34,16 @@ aiosqlite==0.20.0
 pygments==2.17.2
 #pygraphviz
 gradio==4.31.3
+transformers==4.41.2
+accelerate==0.31.0
+pyautogen==0.2.25
+chess==1.10.0
+matplotlib
+numpy
+pandas
+yfinance
+autogen-agentchat
+pyautogen[retrievechat]
+markdownify
+sentence_transformers
+llama-index-vector-stores-chroma
